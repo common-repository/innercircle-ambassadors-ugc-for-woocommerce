@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development",
+    "start": "webpack-dev-server --port=4001"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.13.10",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
